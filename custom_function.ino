@@ -3,7 +3,7 @@ void walk(int speedL, int speedR, int timing) {
   delay(timing);
 }
 
-void drop_to_A(char side) {
+void drop_to_A(String side) {
   if (side == "l") {
     //เลี้ยวซ้าย 
     walk(-40, 40, 300);
